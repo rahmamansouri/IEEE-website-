@@ -1,0 +1,135 @@
+*{
+    padding: auto;
+    margin: 0px;
+    
+}
+
+
+.navbar{
+background-color: #00629B;    
+}
+
+
+
+.main-nav
+{float: right;
+list-style: none;
+margin-top: 30px;
+    background-color: #00629B;
+}
+.main-nav li 
+{ background-color: #00629B;
+    display: inline-block;
+}
+.main-nav li a 
+{ color: white;
+    text-decoration: none;
+    margin: 92px;
+    padding: 10px 10px;
+    font-family: cursive;
+    font-size: 15px;
+    
+}
+
+.main-nav li a:hover 
+{color: #FFA200;}
+
+ body
+{ font-family: cursive sans-serif;}
+
+
+
+
+
+
+video
+{
+    max-width: 100%;
+    height: auto;
+    
+}
+h1{
+    color: orange;
+    font-family: cursive;
+        margin-left: 15px;
+
+}
+h2
+{
+    color: #00629B;
+        margin-left: 15px;
+    
+
+}
+
+#hackathon
+{
+    position: relative;
+     text-align: center;
+    margin-right: 500px;
+    margin-left: 600px;
+border: 1px solid orange ;
+    border-bottom: 10%;
+    
+}
+
+#hackathon:hover {
+    background: #FFA200;
+    
+}
+
+#xtreme{
+border: 1px solid orange;   
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 600px;
+
+    border-bottom: 10%;
+    
+}
+
+
+#xtreme:hover{
+    background: #FFA200;
+}
+
+#btn
+{ height: 30px;
+    width: 745px;
+    background-color: #00629B;
+    color: white;
+   font-family: cursive;
+    margin-left: 9px;
+        border-radius: 8px;
+
+}
+
+
+#btn:hover{
+color: #FFA200;}
+
+
+h3{
+        margin-left: 40px;
+    font-family: Goldman, serif;
+
+}
+
+#contactform{ margin-left: 15px;
+    
+    
+}
+#contactinformation
+{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 40px; 
+    color: #00629B;
+}
+
+
+
+
+
+
+
