@@ -4,38 +4,41 @@
     
 }
 
+body
+{
+    font-family: 'Goldman' , cursive;
+    
+    
+}
+.active {
+display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    
+}
+.active :hover
+{ color:#FFA200;}
+
+
+
 
 .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 background-color: #00629B;    
 }
 
-
-
-.main-nav
-{float: right;
-list-style: none;
-margin-top: 30px;
-    background-color: #00629B;
-}
-.main-nav li 
-{ background-color: #00629B;
-    display: inline-block;
-}
-.main-nav li a 
-{ color: white;
-    text-decoration: none;
-    margin: 92px;
-    padding: 10px 10px;
-    font-family: cursive;
-    font-size: 15px;
+.nav-logo>img { width: 200px;
     
 }
 
-.main-nav li a:hover 
-{color: #FFA200;}
 
- body
-{ font-family: cursive sans-serif;}
+
+
 
 
 
@@ -64,58 +67,63 @@ h2
 
 #hackathon
 {
-    position: relative;
      text-align: center;
-    margin-right: 500px;
-    margin-left: 600px;
-border: 1px solid orange ;
-    border-bottom: 10%;
-    
+    padding: 20px;
+    margin-left: 25%;
+border: 1px solid #FFA200 ;
+    border-radius: 50px; 
+    width: 50%; 
 }
 
 #hackathon:hover {
-    background: #FFA200;
+    background-color: #FFA200;
+    cursor: pointer;
+    color: white;
+    transition-duration: 0.6s;
     
 }
 
 #xtreme{
-border: 1px solid orange;   
-    text-align: center;
-    margin-right: 500px;
-    margin-left: 600px;
-
-    border-bottom: 10%;
-    
+ text-align: center;
+    padding: 20px;
+    margin-left: 25%;
+border: 1px solid #FFA200 ;
+    border-radius: 50px; 
+    width: 50%; 
+ 
 }
 
 
 #xtreme:hover{
-    background: #FFA200;
-}
-
-#btn
-{ height: 30px;
-    width: 745px;
-    background-color: #00629B;
+    background-color: #FFA200;
+    cursor: pointer;
     color: white;
-   font-family: cursive;
-    margin-left: 9px;
-        border-radius: 8px;
-
+    transition-duration: 0.6s;
 }
 
+#contactform>button {
+    background-color: #00629B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;}
 
-#btn:hover{
+
+    #contactform>button:hover{
 color: #FFA200;}
 
 
 h3{
         margin-left: 40px;
-    font-family: Goldman, serif;
 
 }
 
 #contactform{ margin-left: 15px;
+    
+    
+}
+    
     
     
 }
@@ -127,9 +135,44 @@ h3{
     color: #00629B;
 }
 
+.container {
+    
+    display: grid;
+    grid-template-columns: auto  auto auto ;
+    margin top: 20ox;
+}
+
+#aboutus {  position: absolute;
+padding : 20px;
+    width: 90%;
 
 
+}
 
+#contactus { position: absolute;
+    margin-top: 17%;
+    padding: 20px;
+    width: 98%;
+    
+    
+    
+    
+}
+
+.contact-container>span
+{
+    margin-left: 50px;
+    
+}
+
+span>div{
+    vertical-align: middle;
+}
+
+
+.contact-container>span, #contactform {
+    display: inline-grid;
+}
 
 
 

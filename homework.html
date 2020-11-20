@@ -12,27 +12,27 @@
   
     
 
-   <div class="navbar">  
-  <img src="logoCs.png" width="300px" height="80px">  
+   <nav class="navbar">  
 
-       
-        
-     <ul class="main-nav">
-        
+       <ul> 
+       <a href=""><li class="nav-logo active"><img src="logoCs.png"></li>  </a>
+                
       
-        <li    class="active">  <a href=""> Home </a>  </li>  
-        <li    class="active">  <a href=""> Events </a>  </li>     
-        <li   class="active">  <a href=""> About us </a>  </li>  
-        <li   class="active">  <a href=""> Contact Us </a>  </li>  
+           <a href="#home"><li class="active"> Home </li> </a>  
+           <a href="#evens"><li class="active"> Events </li> </a>  
+           <a href="#aboutus"><li class="active"> About us </li> </a>  
+           <a href="#contactus"><li class="active"> Contact Us </li> </a>  
+
+      
         </ul>
     
         
-     </div>
+     </nav>
      
     
     <div id="home">
     
-    <video width="1600" height="800" controls autoplay> 
+    <video autoplay muted 100p width="1600" height="800" > 
         <source src="CSCHAPTER.mp4" type="video/mp4" >
         
         </video>
@@ -47,7 +47,7 @@
     <div id="events">
         <h1> Our Events</h1>
     
-    
+    <div class="container">
     <div id="xtreme">
         <h2> IEEEXtreme 14.0</h2>
         <h3> IEEEXtreme 14.0|Aftermovie <br>
@@ -71,7 +71,7 @@
     
     </div>
           
-    
+    </div>
     
     <div id="aboutus">
     <h1> About us</h1>
@@ -83,40 +83,35 @@
     
     <div id="contactus">
         <h1> Contact Us</h1>
-        <div id="contactform">
-        <label for="name"> </label>
-    <input type="text" name="name" placeholder="Your Full Name" > <br><br>
         
-    <label for="phone"> </label>
-    <input type="text" name="phone" placeholder="Your Phone Number" ><br><br>
+        <div class ="contact-container"> 
+        <form id="contactform">
         
-        <label for="Email"> </label>
-    <input type="text" name="Email" placeholder="Your Email" > <br><br>
+    <input type="text" name="name" placeholder="Your Full Name" > 
+    <input type="text" name="phone" placeholder="Your Phone Number" >
         
-        <label for="subject"> </label>
-    <input type="text" name="subject" placeholder="Your Subject" ><br><br>
+    <input type="email" name="Email" placeholder="Your Email" >
+        
+    <input type="text" name="subject" placeholder="Your Subject" >
+        
+    <textarea  name="message"> </textarea>
             
-            
-    
-    <label for="bio"> </label>
-    <textarea  name="bio" rows="3" cols="100" >   </textarea><br><br>
-            
-   <button id="btn"> Send </button>
-        </div>
+   <button type="submit"> Send </button>
+        </form>
         
         
-    <div id="contactinformation">
+    <span>
         Facebook: <a href="https://www.facebook.com/ieee.fst.cs"> IEEE FST CS Chapter  </a> <br>
         Instagram: <a href="https://www.instagram.com/ieee.fst.cs/?hl=fr">@ieee.fst.cs</a> <br>
-        Email: <a href=""> Email Us</a><br>
+        Email: <a href="mail: c@gmail.com"> Email Us</a><br>
         
         
-        <p>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63651570.213789165!2d-51.48325820510778!3d13.163438160589365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x65a81cae36eb8ff%3A0xa6342257f310534f!2sOc%C3%A9an%20Atlantique!5e0!3m2!1sfr!2stn!4v1605138079719!5m2!1sfr!2stn" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+        <div>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63651570.213789165!2d-51.48325820510778!3d13.163438160589365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x65a81cae36eb8ff%3A0xa6342257f310534f!2sOc%C3%A9an%20Atlantique!5e0!3m2!1sfr!2stn!4v1605138079719!5m2!1sfr!2stn" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
         
-        </div>
+        </span>
     
     </div>
-    
+    </div>
     
     
 </body>
